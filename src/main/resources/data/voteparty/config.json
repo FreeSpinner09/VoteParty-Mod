@@ -1,0 +1,10 @@
+{
+  "requiredVotes": 50,
+  "title": "§6§lVOTE PARTY!",
+  "subtitle": "§e%current_votes% votes reached! Enjoy the rewards!",
+  "commands": [
+    "give {player} diamond 5",
+    "eco give {player} 1000",
+    "crate givekey {player} Vote 3"
+  ]
+}

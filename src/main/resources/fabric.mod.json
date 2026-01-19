@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "vote-party",
+	"version": "${version}",
+	"name": "Vote Party",
+	"description": "A mod that gives players rewards when reaching a specified number of votes!",
+	"authors": [
+		"FreeSpinner"
+	],
+	"contact": {
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/vote-party/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"spinner.voteparty.VoteParty"
+		]
+	},
+  "depends": {
+    "minecraft": "1.21.1",
+    "fabricloader": ">=0.16.5",
+    "fabric-api": "*",
+    "fabric-permissions-api-v0": ">=0.3.1"
+  },
+	"suggests": {
+		"another-mod": "*"
+	}
+}
